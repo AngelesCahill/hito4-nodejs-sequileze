@@ -1,0 +1,20 @@
+{
+  "name": "009-hito4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelesCahill/hito4-nodejs-sequileze.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelesCahill/hito4-nodejs-sequileze/issues"
+  },
+  "homepage": "https://github.com/AngelesCahill/hito4-nodejs-sequileze#readme",
+  "description": ""
+}
