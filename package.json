@@ -2,19 +2,32 @@
   "name": "009-hito4",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "build": "dist/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AngelesCahill/hito4-nodejs-sequileze.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Angeles Cahill",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AngelesCahill/hito4-nodejs-sequileze/issues"
   },
   "homepage": "https://github.com/AngelesCahill/hito4-nodejs-sequileze#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
